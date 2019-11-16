@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import NumberButton from "../src/components/ButtonComponents/NumberButtons/NumberButton";
 import Display from "../src/components/DisplayComponents/Display";
 import Numbers from "../src/components/ButtonComponents/NumberButtons/Numbers";
 import Specials from "../src/components/ButtonComponents/SpecialButtons/Specials";
