@@ -15,8 +15,8 @@ const Numbers = () => {
   return (
     <div>
       {
-        numbers.map((num, index)=>{
-
+        numbers.map((number, index)=>{
+<NumberButton key = {index} num = {number} /> 
       })
         
         /* STEP 3 - Use .map() to iterate over your array data and return a button
