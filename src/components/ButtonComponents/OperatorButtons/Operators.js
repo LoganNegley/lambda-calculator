@@ -15,6 +15,7 @@ const Operators = () => {
       {
         operatorsArry.map(eachOperator => (
         <OperatorButton eachOperator = {eachOperator} />
+    
       ))
       }
     </div>
