@@ -4,7 +4,7 @@ import Numbers from "./Numbers";
 const NumberButton = (props) => {
   return (
     <button>
-This is my buttons
+{props.eachNumber}
 
 
       {/* Display a button element rendering the data being passed down from the parent container on props */}
