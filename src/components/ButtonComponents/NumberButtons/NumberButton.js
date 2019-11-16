@@ -3,7 +3,7 @@ import Numbers from "./Numbers";
 
 const NumberButton = (props) => {
   return (
-    <button>
+    <button className = 'number-buttons'>
 {props.eachNumber}
 
 
