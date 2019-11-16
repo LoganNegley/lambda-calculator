@@ -13,8 +13,8 @@ const Operators = () => {
   return (
     <div>
       {
-        numbersArry.map(eachNumber => (
-        <NumberButton eachNumber = {eachNumber} />
+        operatorsArry.map(eachOperator => (
+        <OperatorButton eachOperator = {eachOperator} />
       ))
       }
     </div>
