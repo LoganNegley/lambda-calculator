@@ -20,3 +20,41 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+
+  .number-buttons{
+      background-color:#113C78;
+      width:75px;
+      height:75px;
+      border-radius: 50%;
+      font-size:35px;
+      color:white;
+      box-shadow: black 0 4px 0 0 ;
+      border:none;
+      margin:7px;
+
+  }
+
+  .specials-buttons{
+    background-color:#2061B0;
+    width:75px;
+    height:75px;
+    border-radius: 50%;
+    font-size:35px;
+    color:white;
+    box-shadow: black 0 4px 0 0 ;
+    border:none;
+    margin:7px;
+  }
+
+  .operator-buttons{
+    background-color:#3DB5E5;
+    width:75px;
+    height:75px;
+    border-radius: 50%;
+    font-size:35px;
+    color:white;
+    box-shadow: black 0 4px 0 0 ;
+    border:none;
+    margin:7px;
+  }

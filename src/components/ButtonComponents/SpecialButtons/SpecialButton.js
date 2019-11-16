@@ -3,7 +3,7 @@ import Specials from "./Specials";
 const SpecialButton = (props) => {
 
   return (
-    <button className = "specails-buttons">
+    <button className = "specials-buttons">
     {props.eachSpecial}
       {/* Display a button element rendering the data being passed down from the parent container on props */}
     </button>
