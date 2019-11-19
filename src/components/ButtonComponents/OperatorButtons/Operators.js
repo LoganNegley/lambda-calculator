@@ -11,7 +11,7 @@ const Operators = () => {
   // STEP 2 - add the imported data to state
   const [operatorsArry, setOperatorsArry] = useState(operators);
   return (
-    <div className = "operators-buttons-container">
+    <div>
       {
         operatorsArry.map(eachOperator => (
         <OperatorButton eachOperator = {eachOperator} />

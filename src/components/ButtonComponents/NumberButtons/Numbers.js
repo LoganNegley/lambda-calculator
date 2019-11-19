@@ -8,7 +8,7 @@ const Numbers = () => {
   // STEP 2 - add the imported data to state
   const [numbersArry, setNumbersArry] = useState(numbers);
   return (
-    <div className = "number-buttons-container">
+    <div>
       {
 
         numbersArry.map(eachNumber => (

@@ -9,7 +9,7 @@ const Specials = () => {
   // STEP 2 - add the imported data to state
 const [specialsArry, setSpecialsArry] = useState(specials);
   return (
-    <div className = "specails-buttons-container">
+    <div>
       {  specialsArry.map(eachSpecial => (
         <SpecialButton eachSpecial = {eachSpecial} />
       ))}
