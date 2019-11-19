@@ -5,7 +5,16 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+
 }
+
+.App{
+  display:flex;
+  flex-flow: row wrap;
+  /* width:85%; */
+
+}
+
 .display {
     margin-top: 25px;
     height: 100px;
@@ -24,37 +33,37 @@
 
   .number-buttons{
       background-color:#113C78;
-      width:75px;
-      height:75px;
+      width:85px;
+      height:85px;
       border-radius: 50%;
       font-size:35px;
       color:white;
       box-shadow: black 0 4px 0 0 ;
       border:none;
-      margin:7px;
+      margin:10px;
 
   }
 
   .specials-buttons{
     background-color:#2061B0;
-    width:75px;
-    height:75px;
+    width:85px;
+    height:85px;
     border-radius: 50%;
     font-size:35px;
     color:white;
     box-shadow: black 0 4px 0 0 ;
     border:none;
-    margin:7px;
+    margin:10px;
   }
 
   .operator-buttons{
     background-color:#3DB5E5;
-    width:75px;
-    height:75px;
+    width:85px;
+    height:85px;
     border-radius: 50%;
     font-size:35px;
     color:white;
     box-shadow: black 0 4px 0 0 ;
     border:none;
-    margin:7px;
+    margin:10px;
   }
