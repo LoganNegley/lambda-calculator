@@ -8,17 +8,45 @@
 
 }
 
-.App{
+.all-number-container{
+  margin:0 25px;
   display:flex;
-  flex-flow: row wrap;
-  /* width:85%; */
+  flex-flow:wrap row;
 
+}
+
+.specials-container{
+  order:-1;
+  width:63%;
+}
+
+.number-container{
+  width:65%;
+}
+
+.operators-container{
+  display:flex;
+  flex-direction:column;
+margin-top: -103px;
+}
+
+.number-buttons:nth-last-child(2){
+  width:190px;
+  height:75px;
+  border-radius: 50px;
+}
+
+.logo-container img{
+  margin-top:30px;
+  margin-left:30px;
 }
 
 .display {
     margin-top: 25px;
+    margin-left:15px;
+    margin-bottom:20px;
     height: 100px;
-    width: 450px;
+    width: 400px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -28,6 +56,10 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+  
+  .display-container{
+    width:75%;
   }
 
 

@@ -25,14 +25,16 @@ function App() {
       <div className = "display-container">
       <Display/>
       </div>
-      <div className ="number-container">
-      <Numbers/>
-      </div>
-      <div className ="operators-container">
-      <Operators/>
-      </div>
-      <div className= "specials-container">
-      <Specials/>
+      <div className= "all-number-container">
+        <div className ="number-container">
+        <Numbers/>
+        </div>
+  
+        <Operators/>
+
+        <div className= "specials-container">
+        <Specials/>
+        </div>
       </div>
       </>
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
